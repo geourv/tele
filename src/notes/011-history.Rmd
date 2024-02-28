@@ -1,0 +1,72 @@
+# Història de la Teledetecció {#history}
+
+La teledetecció, tal com la coneixem avui, és el resultat d'una evolució fascinant de tècniques i tecnologies que es remunten a més d'un segle. Abans que el terme "teledetecció" fos formalment adoptat en els anys 1960, ja s'havien desenvolupat diverses metodologies per observar i analitzar la Terra des de la distància. Aquestes metodologies inicials van establir les bases sobre les quals la teledetecció moderna seria construïda, fusionant conceptes de fotografia, òptica, física i, més tard, tecnologia espacial.
+
+## Les primeres fotografies aèries (1859 - 1900s)
+
+El naixement de la teledetecció pot rastrejar-se fins a l'adveniment de la fotografia aèria al segle XIX. Amb la introducció de globus, dirigibles i, eventualment, avions, els científics i els cartògrafs van començar a capturar les primeres imatges aèries de la Terra, proporcionant perspectives úniques que eren impossibles d'obtenir des del terra. Aquestes primeres fotografies aèries no només van servir per a propòsits militars i d'exploració, sinó que també van ajudar a avançar en el camp de la cartografia i van donar lloc a la ciència de la fotogrametria.
+
+- Antigüitat: La càmera obscura (o caixa fosca) és un dispositiu que consistia en una caixa o habitació fosca amb un petit forat o lents a un costat. La llum que travessava aquest forat projectava una imatge invertida de l'exterior sobre la superfície oposada a l'interior de la caixa. Aquest principi va ser utilitzat per artistes i científics per a estudiar la perspectiva i la composició de la llum.
+- Segle XIX: Al principi del segle XIX, pioners com Joseph Nicéphore Niépce i Louis Daguerre van desenvolupar els primers processos fotogràfics que permetien fixar les imatges capturades amb una camera obscura sobre una superfície sensible a la llum. Niépce va realitzar la primera fotografia coneguda, "Vista des de la Finestra a Le Gras", al voltant de 1826 o 1827, utilitzant betum de Judea sobre una placa d'estany, un procés que requería hores d'exposició.
+- 1839: Louis Daguerre va millorar la tecnologia fotogràfica, creant el *daguerrotip*, un procés que reduïa significativament el temps d'exposició i millorava la qualitat de la imatge.
+- Plaques de Vidre i Pel·lícula Fotogràfica: El desenvolupament de plaques de vidre i, més tard, de pel·lícula fotogràfica flexible, van facilitar l'ús de la càmera fotogràfica, permetent la seva aplicació en camps com la teledetecció.
+- 1783: Els germans Montgolfier van ser els pioners en volar un globus d'aire calent no tripulat.
+- 1858-1859: Gaspard-Félix Tournachon, conegut com Nadar, obté la patent per a la fotografia aèria a França.
+- 1860: James Wallace Black realitza la primera fotografia aèria conservada de Boston.
+- 1888: George Eastman va jugar un paper clau en la transició de les plaques de vidre a la pel·lícula fotogràfica amb el llançament del primer rodet fotogràfic al 1888, facilitant així l'accés a la fotografia a un públic més ampli.
+- 1903: Els germans Wright van realitzar el primer vol controlat d'un avió motoritzat.
+- 1907: Julius Neubronner va patentar un mètode per equipar coloms amb càmeres lleugeres per prendre fotografies aèries.
+- 1909: Wilbur Wright realitza la primera fotografia des d'un avió, marcant l'inici de la fotografia aèria moderna.
+
+## La Primera Guerra Mundial (1914-1918)
+
+- 1914: Els exèrcits comencen a utilitzar la fotografia aèria i globus per a l'observació dels moviments enemics de forma sistemàtica.
+- 1915: J.T.C. Moore-Brabazon desenvolupa la primera càmera aèria de la història, dissenyada específicament per ser accionada des d'un avió. Aquest desenvolupament va ser crucial per al progrés de la fotogrametria aèria i va facilitar la confecció de cartografia basada en fotografia aèria. També va marcar l'inici dels primers llibres de fotointerpretació.
+- 1916: S'introdueixen les primeres càmeres aèries específiques per a l'ús militar, millorant la recollida de dades.
+
+## La Segona Guerra Mundial (1939-1945)
+
+Els avenços en teledetecció durant la Segona Guerra Mundial inclouen millores significatives en les tècniques fotogràfiques, la introducció de les primeres pel·lícules d'infraroig, la incorporació de nous sensors com el radar, avanços en els sistemes de comunicació, i progressos en la indústria aeronàutica. Aquests avenços van permetre una major precisió en el reconeixement fotogràfic, l'obtenció d'informació, la realització de bombardejos, i la producció de cartografia militar, la qual va ser d'immensa utilitat tant per a fins militars com civils, incloent el control de recursos naturals.
+
+- 1941: Introducció de la fotografia infraroja, permetent la detecció de camuflatges i la realització de missions de reconeixement en condicions de poca llum.
+- 1943: Desenvolupament del radar d'obertura sintètica (SAR), millorant la capacitat de recollida de dades independentment de la llum solar o les condicions meteorològiques.
+
+
+## La Guerra Freda i la cursa espacial (1950s-1960s)
+
+L'arribada de l'era espacial, marcada pel llançament del Sputnik per part de la Unió Soviètica el 1957, va representar un punt d'inflexió per a la teledetecció. La capacitat de situar sensors en òrbita al voltant de la Terra va proporcionar una plataforma inigualable per a l'observació continuada i global del planeta. Els satèl·lits, amb els seus avançats instruments de teledetecció, van començar a oferir dades detallades i sistemàtiques sobre la superfície terrestre, els oceans i l'atmosfera, revolucionant múltiples camps científics.
+
+- 1957: Llançament de Sputnik per la Unió Soviètica, el primer satèl·lit artificial de la Terra.
+- 1960: TIROS-1, el primer satèl·lit meteorològic, és llançat pels EUA.
+- 1965: Missió GEMINI-TITAN, que inclou les primeres fotografies formals d’ús geològic i meteorològic des de l'espai.
+
+## L'Era dels satèl·lits civils (1972-present)
+
+- 1972: Landsat-1 (anteriorment ERTS-1) proporciona les primeres imatges des de l'espai per a usos civils, incloent l'agricultura, la geologia i la hidrologia.
+- 1978: Llançament del primer satèl·lit del Sistema de Posicionament Global (GPS), que, tot i que està més associat amb la navegació, també ha influït en la teledetecció per la millora de la geolocalització de les dades.
+- 1986: Llançament del primer satèl·lit de la sèrie SPOT, proporcionant imatges amb major resolució i flexibilitat que Landsat.
+- 1999: El satèl·lit Terra (EOS AM-1) de la NASA és llançat, portant instruments avançats per a l'estudi del sistema terrestre, incloent MODIS.
+
+
+
+## Exercicis
+
+### Exercici 1: Comparació de fites històriques {-}
+
+- Objectiu: Avaluar i comparar dues fites específiques en la història de la teledetecció per determinar la seva importància relativa en el desenvolupament del camp.
+- Preguntes:
+    1. Selecciona dues fites històriques clau en el desenvolupament de la teledetecció (per exemple, l'introducció de la fotografia aèria i el llançament del primer satèl·lit Landsat). Descriu breument cadascuna d'elles.
+    2. Analitza com cadascuna d'aquestes fites va contribuir al progrés de la teledetecció. Considera factors com l'impacte tecnològic, l'aplicació pràctica, i la influència en futurs avenços.
+    3. Argumenta quina de les dues fites consideres que ha tingut un major impacte en el desenvolupament de la teledetecció i per què.
+    4. Quines lliçons es poden aprendre d'aquesta comparació sobre la naturalesa de la innovació en la teledetecció?
+
+### Exercici 2: Classificació de les fites més importants {-}
+
+- Objectiu: Crear una classificació de les fites més importants en la història de la teledetecció, basant-se en criteris específics com la innovació tecnològica, l'impacte social, o la contribució a la ciència.
+- Tasques:
+    1. Escull cinc fites històriques significatives en el desenvolupament de la teledetecció.
+    2. Defineix un conjunt de criteris per avaluar la importància d'aquestes fites (per exemple, innovació, impacte en la recerca, aplicacions pràctiques, etc.).
+    3. Utilitza els criteris definits per crear una classificació ordenada d'aquestes fites, des de la més fins a la menys influent en el camp de la teledetecció.
+    4. Justifica la teva classificació amb exemples concrets i argumenta per què algunes fites són més crítiques que altres per al desenvolupament de la teledetecció.
+    5. Reflexiona sobre com aquesta classificació reflecteix l'evolució de la teledetecció i la seva importància en l'estudi del nostre planeta.
+

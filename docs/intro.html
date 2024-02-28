@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Capítol 1 Introducció a la Teledetecció | Teledetecció per a la planificació territorial</title>
+  <meta name="description" content="Aquest document forma part dels materials per al curs ‘Teledetecció per a la planificació territorial’ del Grau de Geografia, Anàlisi territorial i Sostenibilitat (2018)." />
+  <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Capítol 1 Introducció a la Teledetecció | Teledetecció per a la planificació territorial" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Aquest document forma part dels materials per al curs ‘Teledetecció per a la planificació territorial’ del Grau de Geografia, Anàlisi territorial i Sostenibilitat (2018)." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Capítol 1 Introducció a la Teledetecció | Teledetecció per a la planificació territorial" />
+  
+  <meta name="twitter:description" content="Aquest document forma part dels materials per al curs ‘Teledetecció per a la planificació territorial’ del Grau de Geografia, Anàlisi territorial i Sostenibilitat (2018)." />
+  
+
+<meta name="author" content="Benito Zaragozí" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="history.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Teledetecció per a la planificació territorial</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Presentació de l’Assignatura</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#requeriments"><i class="fa fa-check"></i>Requeriments</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#programari-necessari"><i class="fa fa-check"></i>Programari Necessari</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#altres-recomanacions"><i class="fa fa-check"></i>Altres Recomanacions</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#estructura-de-lassignatura"><i class="fa fa-check"></i>Estructura de l’Assignatura</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#metodologia"><i class="fa fa-check"></i>Metodologia</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#avaluació"><i class="fa fa-check"></i>Avaluació</a></li>
+</ul></li>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#exercicis"><i class="fa fa-check"></i><b>0.1</b> Exercicis</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introducció a la Teledetecció</a><ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#principis-fonamentals"><i class="fa fa-check"></i><b>1.1</b> Principis Fonamentals</a></li>
+<li class="chapter" data-level="1.2" data-path="intro.html"><a href="intro.html#aplicacions"><i class="fa fa-check"></i><b>1.2</b> Aplicacions</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="intro.html"><a href="intro.html#biogeografia"><i class="fa fa-check"></i><b>1.2.1</b> Biogeografia</a></li>
+<li class="chapter" data-level="1.2.2" data-path="intro.html"><a href="intro.html#cartografia"><i class="fa fa-check"></i><b>1.2.2</b> Cartografia</a></li>
+<li class="chapter" data-level="1.2.3" data-path="intro.html"><a href="intro.html#geografia-urbana"><i class="fa fa-check"></i><b>1.2.3</b> Geografia Urbana</a></li>
+<li class="chapter" data-level="1.2.4" data-path="intro.html"><a href="intro.html#climatologia"><i class="fa fa-check"></i><b>1.2.4</b> Climatologia</a></li>
+<li class="chapter" data-level="1.2.5" data-path="intro.html"><a href="intro.html#altres-àrees"><i class="fa fa-check"></i><b>1.2.5</b> Altres àrees</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="intro.html"><a href="intro.html#avenços-tecnològics"><i class="fa fa-check"></i><b>1.3</b> Avenços Tecnològics</a></li>
+<li class="chapter" data-level="1.4" data-path="intro.html"><a href="intro.html#desafiaments"><i class="fa fa-check"></i><b>1.4</b> Desafiaments</a></li>
+<li class="chapter" data-level="1.5" data-path="intro.html"><a href="intro.html#exercicis-1"><i class="fa fa-check"></i><b>1.5</b> Exercicis</a><ul>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#exercici-1-reflexió-sobre-la-teledetecció-en-al-bostre-currículum"><i class="fa fa-check"></i>Exercici 1: Reflexió sobre la Teledetecció en al bostre <em>currículum</em></a></li>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#exercici-2-aplicabilitat-de-la-teledetecció-en-diferents-disciplines"><i class="fa fa-check"></i>Exercici 2: Aplicabilitat de la Teledetecció en diferents disciplines</a></li>
+<li class="chapter" data-level="" data-path="intro.html"><a href="intro.html#exercici-3-integració-transversal-de-la-teledetecció"><i class="fa fa-check"></i>Exercici 3: Integració transversal de la Teledetecció</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="history.html"><a href="history.html"><i class="fa fa-check"></i><b>2</b> Història de la Teledetecció</a><ul>
+<li class="chapter" data-level="2.1" data-path="history.html"><a href="history.html#les-primeres-fotografies-aèries-1859---1900s"><i class="fa fa-check"></i><b>2.1</b> Les primeres fotografies aèries (1859 - 1900s)</a></li>
+<li class="chapter" data-level="2.2" data-path="history.html"><a href="history.html#la-primera-guerra-mundial-1914-1918"><i class="fa fa-check"></i><b>2.2</b> La Primera Guerra Mundial (1914-1918)</a></li>
+<li class="chapter" data-level="2.3" data-path="history.html"><a href="history.html#la-segona-guerra-mundial-1939-1945"><i class="fa fa-check"></i><b>2.3</b> La Segona Guerra Mundial (1939-1945)</a></li>
+<li class="chapter" data-level="2.4" data-path="history.html"><a href="history.html#la-guerra-freda-i-la-cursa-espacial-1950s-1960s"><i class="fa fa-check"></i><b>2.4</b> La Guerra Freda i la cursa espacial (1950s-1960s)</a></li>
+<li class="chapter" data-level="2.5" data-path="history.html"><a href="history.html#lera-dels-satèllits-civils-1972-present"><i class="fa fa-check"></i><b>2.5</b> L’Era dels satèl·lits civils (1972-present)</a></li>
+<li class="chapter" data-level="2.6" data-path="history.html"><a href="history.html#exercicis-2"><i class="fa fa-check"></i><b>2.6</b> Exercicis</a><ul>
+<li class="chapter" data-level="" data-path="history.html"><a href="history.html#exercici-1-comparació-de-fites-històriques"><i class="fa fa-check"></i>Exercici 1: Comparació de fites històriques</a></li>
+<li class="chapter" data-level="" data-path="history.html"><a href="history.html#exercici-2-classificació-de-les-fites-més-importants"><i class="fa fa-check"></i>Exercici 2: Classificació de les fites més importants</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="referencias.html"><a href="referencias.html"><i class="fa fa-check"></i>Referencias</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/geourv/tele" target="blank">Publicado con bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Teledetecció per a la planificació territorial</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="intro" class="section level1 hasAnchor">
+<h1><span class="header-section-number">Capítol 1</span> Introducció a la Teledetecció<a href="intro.html#intro" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>La teledetecció, un terme que es va originar als anys 1960, designa el procés d’observar i obtenir informació sobre la Terra des de la distància, sense estar en contacte físic directe amb l’àrea d’estudi. Aquesta disciplina utilitza sensors instal·lats en plataformes aèries o espacials per captar i registrar la radiació electromagnètica reflectida o emesa per la superfície terrestre i els objectes presents en ella.</p>
+<div id="principis-fonamentals" class="section level2 hasAnchor">
+<h2><span class="header-section-number">1.1</span> Principis Fonamentals<a href="intro.html#principis-fonamentals" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>La teledetecció es basa en el principi que diferents objectes i materials a la superfície de la Terra reflecteixen i absorbeixen la llum solar de manera diferent. Aquestes diferències en la reflectància i l’emissivitat es poden detectar i mesurar amb sensors, permetent la identificació i l’anàlisi d’aquests objectes a grans distàncies.</p>
+</div>
+<div id="aplicacions" class="section level2 hasAnchor">
+<h2><span class="header-section-number">1.2</span> Aplicacions<a href="intro.html#aplicacions" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>La teledetecció ofereix als geògrafs una eina potent per a l’anàlisi i comprensió del paisatge terrestre, els seus processos naturals i les activitats humanes que impacten en ell. A continuació, es detalla com la teledetecció es relaciona amb diverses disciplines dins de la geografia i com es pot utilitzar per enriquir l’estudi d’aquestes àrees:</p>
+<div id="biogeografia" class="section level3 hasAnchor">
+<h3><span class="header-section-number">1.2.1</span> Biogeografia<a href="intro.html#biogeografia" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>En biogeografia, la teledetecció permet el monitoratge de la distribució i la dinàmica de la vegetació, els hàbitats i les espècies a través de grans àrees i períodes de temps. Les imatges de satèl·lit ajuden a identificar els patrons de biodiversitat, els canvis en la coberta vegetal i els impactes del canvi climàtic i les activitats humanes sobre els ecosistemes naturals.</p>
+</div>
+<div id="cartografia" class="section level3 hasAnchor">
+<h3><span class="header-section-number">1.2.2</span> Cartografia<a href="intro.html#cartografia" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>La teledetecció és fonamental per a la cartografia moderna, proporcionant dades precises i actualitzades per a la creació i actualització de mapes. Les imatges de satèl·lit i aèries són utilitzades per a mapejar característiques físiques i humanes, inclòs el relleu, l’ús del sòl i la infraestructura urbana, facilitant així la planificació territorial i la gestió de recursos.</p>
+</div>
+<div id="geografia-urbana" class="section level3 hasAnchor">
+<h3><span class="header-section-number">1.2.3</span> Geografia Urbana<a href="intro.html#geografia-urbana" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>En el camp de la geografia urbana, la teledetecció permet analitzar el creixement urbà, la morfologia de les ciutats i els patrons d’ús del sòl urbà. Les dades obtingudes ajuden a entendre millor les dinàmiques urbanes, inclòs l’esprai urbà, la densitat de població i la distribució d’espais verds, així com a identificar àrees de degradació ambiental i planificar el desenvolupament urbà sostenible.</p>
+</div>
+<div id="climatologia" class="section level3 hasAnchor">
+<h3><span class="header-section-number">1.2.4</span> Climatologia<a href="intro.html#climatologia" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>La teledetecció juga un paper clau en la climatologia, oferint dades essencials per a l’estudi dels patrons climàtics, el seguiment de fenòmens meteorològics extrems i la investigació del canvi climàtic. Les observacions des de l’espai proporcionen informació valuosa sobre la temperatura de la superfície, els patrons de precipitació, la cobertura de núvols i els canvis en els glaciars i el gel marí.</p>
+</div>
+<div id="altres-àrees" class="section level3 hasAnchor">
+<h3><span class="header-section-number">1.2.5</span> Altres àrees<a href="intro.html#altres-àrees" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>La teledetecció també s’aplica en altres àrees de la geografia, incloent la hidrologia, on es monitoritzen els cossos d’aigua i s’estudien els canvis en la qualitat de l’aigua i els recursos hídrics; la geologia, per a la cartografia de formacions rocoses i l’anàlisi de riscos geològics; i la conservació del medi ambient, per a la protecció d’àrees naturals i la gestió de recursos naturals.</p>
+<p>La capacitat de la teledetecció per proporcionar dades de gran abast espacial i temporal, combinada amb la seva versatilitat per captar informació en diverses bandes de l’espectre electromagnètic, la converteix en una eina indispensable per als geògrafs i professionals de disciplines relacionades. A través de la integració de dades de teledetecció amb altres fonts d’informació i l’ús de Sistemes d’Informació Geogràfica (SIG), és possible obtenir una comprensió més profunda i detallada del nostre món i les interaccions entre els seus components naturals i humans.</p>
+</div>
+</div>
+<div id="avenços-tecnològics" class="section level2 hasAnchor">
+<h2><span class="header-section-number">1.3</span> Avenços Tecnològics<a href="intro.html#avenços-tecnològics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Amb l’avanç de la tecnologia, els sensors de teledetecció han evolucionat significativament, oferint una major resolució, sensibilitat i capacitat per captar dades en diverses bandes de l’espectre electromagnètic. Això ha millorat la precisió i la varietat d’informació que es pot obtenir, obrint noves oportunitats per a l’exploració i l’anàlisi de la Terra i els seus recursos.</p>
+</div>
+<div id="desafiaments" class="section level2 hasAnchor">
+<h2><span class="header-section-number">1.4</span> Desafiaments<a href="intro.html#desafiaments" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Malgrat els seus nombrosos beneficis, la teledetecció també presenta desafiaments, incloent la interpretació correcta de les dades obtingudes, la integració de dades de diferents fonts i sensors, i la gestió de la gran quantitat de dades produïdes. A més, factors com la cobertura de núvols i la variabilitat atmosfèrica poden afectar la qualitat i l’ús de les dades de teledetecció.</p>
+</div>
+<div id="exercicis-1" class="section level2 hasAnchor">
+<h2><span class="header-section-number">1.5</span> Exercicis<a href="intro.html#exercicis-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="exercici-1-reflexió-sobre-la-teledetecció-en-al-bostre-currículum" class="section level3 unnumbered hasAnchor">
+<h3>Exercici 1: Reflexió sobre la Teledetecció en al bostre <em>currículum</em><a href="intro.html#exercici-1-reflexió-sobre-la-teledetecció-en-al-bostre-currículum" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li><strong>Reflexió Personal:</strong> Penseu en les assignatures que heu cursat fins ara. Identifiqueu almenys dues on s’ha anomenat o utilitzat la teledetecció o productes derivats d’aquesta (per exemple, imatges de satèl·lit, mapes de vegetació, etc.). Descriviu breument com s’ha integrat la teledetecció en el contingut o les activitats d’aquestes assignatures.</li>
+<li><strong>Anàlisi de Beneficis:</strong> Reflexionau sobre com la inclusió de la teledetecció ha enriquit el vostre aprenentatge en aquestes assignatures. Considerau exemples específics de com les dades o les tècniques de teledetecció han millorat la vostra comprensió dels temes tractats.</li>
+</ol>
+</div>
+<div id="exercici-2-aplicabilitat-de-la-teledetecció-en-diferents-disciplines" class="section level3 unnumbered hasAnchor">
+<h3>Exercici 2: Aplicabilitat de la Teledetecció en diferents disciplines<a href="intro.html#exercici-2-aplicabilitat-de-la-teledetecció-en-diferents-disciplines" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Assignatura Específica: Trieu una assignatura concreta (per exemple, Biogeografia, Climatologia, etc.) que encara ja heu cursat i que creieu que podria beneficiar-se de l’ús de la teledetecció. Argumenteu per què i cóm la teledetecció podria ser una eina útil en l’estudi d’aquesta disciplina.</li>
+<li>Proposta de Projecte: Diseñau una proposta breu per a un projecte o activitat dins d’aquesta assignatura que utilitzi la teledetecció com a component clau. Detallau quins objectius podrien assolir-se amb l’ajuda de la teledetecció i quins tipus de dades o anàlisi serien necessaris.</li>
+</ol>
+</div>
+<div id="exercici-3-integració-transversal-de-la-teledetecció" class="section level3 unnumbered hasAnchor">
+<h3>Exercici 3: Integració transversal de la Teledetecció<a href="intro.html#exercici-3-integració-transversal-de-la-teledetecció" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Visió Integradora: Penseu en un tema o problema global (per exemple, canvi climàtic, urbanització, conservació d’espècies, etc.) que requereixi un enfocament multidisciplinari. Expliqueu com la teledetecció podria servir com a eina de connexió entre diferents disciplines acadèmiques per abordar aquest tema.</li>
+<li>Col·laboració Interdisciplinària: Proposeu un taller o seminari que reuneixi estudiants de diferents disciplines per treballar conjuntament en un projecte que utilitzi dades de teledetecció. Descriviu els objectius d’aquest taller, les activitats planificades i com les diferents perspectives disciplinàries poden enriquir l’anàlisi de les dades de teledetecció.</li>
+</ol>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="history.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["intro-to-rs.pdf", "intro-to-rs.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

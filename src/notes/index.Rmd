@@ -1,0 +1,85 @@
+--- 
+title: "Teledetecció per a la planificació territorial"
+author: "Benito Zaragozí"
+date: "`r format(Sys.time(), '%d-%b-%Y')`"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+documentclass: book
+bibliography:
+- ../bib/book.bib
+- ../bib/packages.bib
+biblio-style: apalike
+link-citations: yes
+description: Aquest document forma part dels materials per al curs 'Teledetecció per
+  a la planificació territorial' del Grau de Geografia, Anàlisi territorial i Sostenibilitat
+  (2018).
+always_allow_html: yes
+site: bookdown::bookdown_site
+---
+
+```{r, echo = FALSE, message = FALSE}
+library(pander)
+panderOptions("p.sep", ", ")
+panderOptions("decimal.mark", ",")
+panderOptions("big.mark", ".")
+panderOptions("p.copula", " y ")
+panderOptions("p.sep", ", ")
+panderOptions("round", 0)
+```
+
+# Presentació de l'Assignatura {-}
+
+La teledetecció, una disciplina que es basa en l'adquisició i anàlisi de dades sobre la Terra des de sensors situats en plataformes espacials o aerotransportades, s'ha convertit en una eina indispensable en l'estudi i gestió del nostre planeta. L'objectiu d'aquesta assignatura és proporcionar als estudiants una comprensió profunda dels principis teòrics i pràctics de la teledetecció, així com les seves aplicacions en diversos camps com l'agricultura, la gestió de recursos naturals, l'urbanisme, i la vigilància ambiental.
+Objectius de l'Assignatura
+
+L'assignatura pretén dotar l'estudiantat de:
+
+- **Coneixements Fonamentals:** Entendre els principis físics que regeixen la teledetecció, incloent la interacció de la radiació electromagnètica amb la matèria.
+- **Habilitats Tècniques:** Adquirir destresa en el maneig de dades de teledetecció, incloent l'adquisició, processament, i anàlisi d'imatges satèl·lit i dades aerotransportades.
+- **Aplicació Pràctica:** Ser capaç d'aplicar coneixements i habilitats tècniques a l'estudi de casos reals, mitjançant l'ús de programari específic com QGIS i eines de processament d'imatges.
+
+## Requeriments {-}
+
+Es recomana que els estudiants tinguin un coneixement bàsic de SIG (Sistemes d'Informació Geogràfica) i estiguin familiaritzats amb conceptes bàsics de geografia i paisatge. A més, es valorarà la capacitat d'autogestió i investigació autònoma (bibliografia recomanada, cerques per internet, IA generatives, tutories, etc).
+
+### Programari Necessari {-}
+
+Per seguir les explicacions d'aquest curs serà necessari instal·lar el següent programari:
+
+- QGIS +3.14 (software lliure): Amb un llistat de connectors que s'instalaran al llarg del curs. QGIS és un sistema d'informació geogràfica que permet la visualització, l'edició i l'anàlisi de dades geoespacials.
+- R i RStudio: R és un entorn i llenguatge de programació amb enfocament a l'estadística. RStudio proporciona una interfície amigable per a l'ús de R. Serà necessari instal·lar els paquets knitr i rmarkdown, essencials per a la creació de documents i informes dinàmics.
+
+Configuració Recomanada per R
+
+```r
+sessionInfo()
+```
+
+Aquest codi R mostra la informació de la sessió actual de R, incloent la versió de R, el sistema operatiu, i els paquets carregats. Això pot ajudar a assegurar que tots els estudiants treballin amb una configuració similar i compatible amb el material del curs.
+
+### Altres Recomanacions {-}
+
+- 7zip: Programa de compressió recomanat per a descomprimir els materials del curs.
+
+Es recomana revisar la compatibilitat del programari amb el sistema operatiu de l'ordinador personal de cada estudiant i realitzar les instal·lacions amb antelació per assegurar un inici de curs sense inconvenients.
+
+
+### Estructura de l'Assignatura {-}
+
+L'assignatura està dividida en diverses seccions que cobreixen des de la introducció a la teledetecció, els principis físics subjacents, les plataformes i sensors, fins a les tècniques de processament d'imatges i les seves aplicacions. A més, s'inclourà una secció especial sobre l'ús de drones per a la teledetecció, considerant el context i la normativa que afecten Espanya.
+
+### Metodologia {-}
+
+L'ensenyament combinarà classes teòriques amb sessions pràctiques a ``l'Aula de SIG''. Les classes teòriques proporcionaran els coneixements necessaris per entendre els fonaments de la teledetecció, mentre que les pràctiques permetran als estudiants aplicar aquests coneixements a situacions reals, fent ús de dades de teledetecció i eines de processament d'imatges. A les classes teòriques farem emfasi en els coneixements més importants i facilitarem exemples clars.
+
+### Avaluació {-}
+
+L'avaluació de l'assignatura serà contínua, basant-se en la participació en classe, la realització de pràctiques, i la presentació de projectes. A més, hi haurà exàmens parcials per avaluar els coneixements adquirits en les seccions teòriques de l'assignatura. Aquests apunts, o una versió millorada, podran ser portats als examens escrits.
+
+
+## Exercicis
+
+- Utilizando Rstudio, crea tu primer documento con Rmarkdown. El documento debe mostrar los metadatos básicos (título, autor y fecha), un título de primer nivel (por ejemplo, 'Información de la sesión') y un recuadro con la información básica de vuestra sesión de R.
+

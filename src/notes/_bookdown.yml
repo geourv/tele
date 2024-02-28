@@ -1,0 +1,21 @@
+book_filename: 'intro-to-rs'
+output_dir: ../../docs
+new_session: no
+language:
+  label:
+    fig: 'Figura '
+    tab: 'Taula '
+    eq: 'Ecuació '
+    thm: 'Teorema '
+    lem: 'Lema '
+    def: 'Definició '
+    cor: 'Corolari '
+    prp: 'Proposició '
+    exm: 'Exemple '
+    exr: 'Exercici '
+    proof: 'Demostració. '
+    remark: 'Nota: '
+    solution: 'Solució. '
+  ui:
+    chapter_name: 'Capítol '
+delete_merged_file: yes

@@ -1,0 +1,21 @@
+Distribution,p,q,d,r
+Beta,pbeta,qbeta,dbeta,rbeta
+Binomial,pbinom,qbinom,dbinom,rbinom
+Cauchy,pcauchy,qcauchy,dcauchy,rcauchy
+Chi-Square,pchisq,qchisq,dchisq,rchisq
+Exponential,pexp,qexp,dexp,rexp
+F,pf,qf,df,rf
+Gamma,pgamma,qgamma,dgamma,rgamma
+Geometric,pgeom,qgeom,dgeom,rgeom
+Hypergeometric,phyper,qhyper,dhyper,rhyper
+Logistic,plogis,qlogis,dlogis,rlogis
+Log Normal,plnorm,qlnorm,dlnorm,rlnorm
+Negative Binomial,pnbinom,qnbinom,dnbinom,rnbinom
+Normal,pnorm,qnorm,dnorm,rnorm
+Poisson,ppois,qpois,dpois,rpois
+Student t,pt,qt,dt,rt
+Studentized Range,ptukey,qtukey,dtukey,rtukey
+Uniform,punif,qunif,dunif,runif
+Weibull,pweibull,qweibull,dweibull,rweibull
+Wilcoxon Rank Sum Statistic,pwilcox,qwilcox,dwilcox,rwilcox
+Wilcoxon Signed Rank Statistic,psignrank,qsignrank,dsignrank,rsignrank

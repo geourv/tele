@@ -1,0 +1,11 @@
+\usepackage{booktabs}
+
+\ifxetex
+  \usepackage{polyglossia}
+  \setmainlanguage{catalan}
+  % Tabla en lugar de cuadro
+  \gappto\captionsspanish{\renewcommand{\tablename}{Taula}  
+          \renewcommand{\listtablename}{Índex de taules}}
+\else
+  \usepackage[catalan]{babel}
+\fi
